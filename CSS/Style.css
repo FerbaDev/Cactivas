@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* colores de links */
 .link-color {
     text-decoration: none;
     color: rgb(211, 174, 174);
 }
-
 .link-color:hover {
     color: azure;
 }
@@ -31,25 +29,18 @@
     }
 }
 /* cierra animacion en bienvenida  */
-
 /* transform tarjeta */
 .tarjeta {
     transition: 0.5s;
 }
-
 .tarjeta:hover {
     transform: scale(1.05);
 }
-
-
-
 /* cierra transform tarjeta */
-
 /* animacion en boton curso */
 .boton {
     transition: 0.5s;
 }
-
 .boton:hover {
     transform: scale(1.2);
 }
