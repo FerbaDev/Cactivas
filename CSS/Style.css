@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* colores de links */
+.link-color {
+    text-decoration: none;
+    color: rgb(211, 174, 174);
+}
+
+.link-color:hover {
+    color: azure;
+}
+/* cierran colores de links */
