@@ -11,63 +11,107 @@
 </head>
 <body>
     <!--   empieza navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between border-bottom px-3">
     
         <a class="navbar-brand" href="#">
             <img src="../imagenes/logonav.jpg" width="30" height="30" alt="logo">Cactivas
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active text-right">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item active text-end">
+                    <a class="nav-link" href="../index.html">Home</a>
                 </li>
-                <li class="nav-item text-right">
-                    <a class="nav-link" href="#">Tienda</a>
+                <li class="nav-item text-end">
+                    <a class="nav-link disabled" href="#">Tienda</a>
                 </li>
-                <li class="nav-item text-right">
-                    <a class="nav-link" href="#">Tips</a>
+                <li class="nav-item text-end">
+                    <a class="nav-link" href="#">Tips <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item text-right">
+                <li class="nav-item text-end">
                     <a class="nav-link disabled">Curso</a>
                 </li>
             </ul>
         </div>
     </nav>
 <!-- cierra navbar -->
+
+    <main class="bg-dark">
 <!-- empiezan tarjetas -->
-    <div class="container bg-dark" style="color: antiquewhite;">
-        <div class="row d-flex gap-2 justify-content-around">
-            <div class="col-3 border border-light rounded">
-                <h2>Ubicacion y luz</h2>
-                <p>Es muy importante conocer este aspecto del cultivo. Saber dónde ubicar nuestras plantas desde el momento en que las adquirimos nos puede ahorrar varios problemas como quemaduras, etiolaciones, pudriciones, etc.</p>
-                <p> Desde ya que los cactus y las suculentas <strong>NO SON PLANTAS DE INTERIOR.</strong> Lo mejor es encontrar un lugar en exterior.</p>
-                <img class="w-75" src="../imagenes/cactusUbicacion.jpg" alt="cactus ubicados a la luz">
-            </div>
-            <div class="col-3 border border-light rounded">
-                <h2>Ubicacion y luz</h2>
-                <p>Es muy importante conocer este aspecto del cultivo. Saber dónde ubicar nuestras plantas desde el momento en que las adquirimos nos puede ahorrar varios problemas como quemaduras, etiolaciones, pudriciones, etc.</p>
-                <p> Desde ya que los cactus y las suculentas <strong>NO SON PLANTAS DE INTERIOR.</strong> Lo mejor es encontrar un lugar en exterior.</p>
-                <img class="w-75" src="../imagenes/cactusUbicacion.jpg" alt="cactus ubicados a la luz">
-            </div>
-            <div class="col-3 border border-light rounded">
-                <h2>Riego</h2>
-                <p>Empecemos por aclarar la falsa premisa de que los cactus se riegan poco.
+        <section class="container-fluid bg-dark" style="color: antiquewhite;">
+            <div class="row d-flex gap-1 justify-content-around">
+                <div class="col-md-3 border border-light rounded my-3">
+                    <h2>Ubicacion y luz</h2>
+                    <p>Es muy importante conocer este aspecto del cultivo. Saber dónde ubicar nuestras plantas desde el momento en que las adquirimos nos puede ahorrar varios problemas como quemaduras, etiolaciones, pudriciones, etc.</p>
+                    <p> Desde ya que los cactus y las suculentas <strong>NO SON PLANTAS DE INTERIOR.</strong> Lo mejor es encontrar un lugar en exterior.</p>
+                    <img class="w-75" src="../imagenes/cactusUbicacion.jpg" alt="cactus ubicados a la luz">
+                </div>
+                <div class="col-md-3 border border-light rounded my-3">
+                    <h2>Ubicacion y luz</h2>
+                    <p>Es muy importante conocer este aspecto del cultivo. Saber dónde ubicar nuestras plantas desde el momento en que las adquirimos nos puede ahorrar varios problemas como quemaduras, etiolaciones, pudriciones, etc.</p>
+                    <p> Desde ya que los cactus y las suculentas <strong>NO SON PLANTAS DE INTERIOR.</strong> Lo mejor es encontrar un lugar en exterior.</p>
+                    <img class="w-75" src="../imagenes/cactusUbicacion.jpg" alt="cactus ubicados a la luz">
+                </div>
+                <div class="col-md-3 border border-light rounded my-3">
+                    <h2>Riego</h2>
+                    <p>Empecemos por aclarar la falsa premisa de que los cactus se riegan poco.
                     Durante la fase de crecimiento principal, de septiembre a marzo, los cactus necesitan buenos riegos. <strong>Lo importante es que el sustrato drene bien el agua y que el sustrato se seque entre riegos</strong>. Las raíces no deben sufrir excesos de humedad ni falta de aire.
-                </p>
-                <img class="w-75" src="../imagenes/riegoCactus.jpg" alt="cactus y regadera">
+                    </p>
+                    <img class="w-75" src="../imagenes/riegoCactus.jpg" alt="cactus y regadera">
+                </div>
+            </div>
+        </section>
+<!-- cierran tarjetas -->
+<!-- banner curso -->
+<div class="card text-bg-dark mb-3 border-warning-subtle" style="max-width: 18rem; color: antiquewhite;">
+    <div class="card-header border-warning-subtle">Querés saber más?</div>
+    <div class="card-body">
+      <p class="card-text">Para más info anotate al curso</p>
+      <a href="#" class="btn btn-primary">Ir al curso</a>
+    </div>
+  </div>
+<!-- cierra banner curso -->
+<!-- empieza footer -->
+        <div class="container-fluid border-top pt-1">
+            <div class="row d-flex">
+                <div class="col-4 mt-2">
+                    <iframe class="w-100 h-75" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5028.584702568396!2d-64.19804008583667!3d-31.414283318529886!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe0bc5ff1ab0c3663!2sCactivas!5e0!3m2!1ses!2sar!4v1670512969611!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="col-4 d-flex align-items-center justify-content-center">
+                    <ul class="navbar-nav d-flex flex-row gap-3">
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/cactivas">
+                                <i class="fa-brands fa-facebook" style="color: antiquewhite;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/cactivas">
+                                <i class="fa-brands fa-instagram" style="color: antiquewhite;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://cactivas.blogspot.com/">
+                                <i class="fa-brands fa-blogger" style="color: antiquewhite;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="
+                             https://wa.me/+543571573266?text=Te%20comunicaste%20con%20Cactivas.%20%C2%BFEn%20qu%C3%A9%20podemos%20ayudarte?
+                             " style="color: antiquewhite;"><i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4 d-flex align-items-end justify-content-end">
+                    <p style="color: antiquewhite;">Página realizada por Fernando Barron.</p>
+                </div>
             </div>
         </div>
-    </div>
-
-
-
-
-<!-- cierran tarjetas -->
-
-
+<!-- cierra footer -->
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
